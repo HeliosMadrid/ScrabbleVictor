@@ -2,6 +2,7 @@ using namespace std;
 
 #include <iostream>
 #include "../headers/Functions.h"
+#include "../main.cpp"
 
 void printGrid(int height, int width) {
     cout << endl;
@@ -33,5 +34,10 @@ int requestInt(string requestMSG) {
     cin >> rep;
     return rep;
 }
+void setCase(int indices[2], char value) {
+    printGridCustom(height, width, indices[2]);
+}
+void printGridCustom(int height, int width, int indices[[]]) {
 
+}
 
